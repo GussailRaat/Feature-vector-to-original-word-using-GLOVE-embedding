@@ -1,7 +1,7 @@
 # Usage of GLOVE-embedding
 
 ## Get the feature vector from word
-### Run getVector.py file
+#### Run getVector.py file
 
 
 ## Get the word from feature vector
