@@ -22,7 +22,7 @@ def loadGloveEmbedding(path):
     return inv_glv_vector
 
 
-def getSentence(vec):
+def getWords(vec):
     inv_glv_vector = loadGloveEmbedding('path-to-glove-embedding/glove.840B.300d.txt')
     num_words = len(vec)
     sentence = ' '.join([inv_glv_vector[''.join([str(item) for item in vec[i][:15]])]
@@ -30,4 +30,4 @@ def getSentence(vec):
 
     return ' '.join(sentence.split())
 
-sentence = getSentence(vec) # vec should be 2D (num of words, dim). see readme file.
+sentence = getWords(vec) # vec should be 2D (num of words, dim). see readme file.
