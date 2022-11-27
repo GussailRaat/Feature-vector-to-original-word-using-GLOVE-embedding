@@ -30,6 +30,4 @@ def getWord(vec):
 
     return ' '.join(sentence.split())
 
-
-wordsVec = 
-sentence = getWord(wordsVec)
+sentence = getWord(vec) # vec should be 2D (num of words, dim). see readme file.
