@@ -2,7 +2,7 @@
 
 ## Get the feature vector from word
 * Run getVector.py file
-* input = words
+* input = words (e.g. 'hello')
 
 
 ## Get the word from feature vector
